@@ -117,7 +117,7 @@ class _ProductViewState extends State<ProductView> {
                                     decoration: BoxDecoration(
                                       image: DecorationImage(
                                           image: NetworkImage(
-                                              'https://5.imimg.com/data5/YY/EN/MY-8155364/fresh-apple-500x500.jpg')
+                                              Con.imgBase+snap.data![index]['image'])
                                       ),
                                       color: Colors.white,
                                     ),
